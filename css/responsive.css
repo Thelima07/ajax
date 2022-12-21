@@ -1,11 +1,60 @@
 @media (max-width:320px) {
-    section h1 {
+   section{
+      margin-left: 10px;
+      font-size: 30px;
+   }
+
+   section h1 {
+    font-size: 20px;
+   }
+
+   #posts{
+     display: flex;
+     word-break: break-all;
+   }
+
+   .button{
+    margin-top: 5vh;
+    font-size: 12px;
+    margin-left: 12vh;
+   }
+
+   .git{
+    font-size: 25px;
+    margin-top: 2vh;
+    margin-left: 18vh;
+   }
+
+   #username {
+    width: 150px;
+    height: 30px;
+    margin-left: 12vh;
+   }
+}
+
+@media(max-width: 768px) {
+     section{
+        margin-left: 15px;
+        font-size: 70px;
+     }
+
+     section h1 {
+        font-size: 40px;
+        margin-left: 10px;
+       }
+
+       #posts{
         display: flex;
-        font-size: 30px;
-        margin-left: 20px;
-    }
-    #posts, h3  {
-        font-size: 20px;
-        margin-left: 20px;
-    }
-}   
+        word-break: break-all;
+      }
+
+      .button{
+        margin-top: 5vh;
+       }
+
+     input{
+        margin-left: 10px;
+        margin-bottom: 5vh;
+     }
+
+}
